@@ -78,20 +78,7 @@
   
   
   
-  Two things! Attachments and shortcuts have moved to the plus icon. See what else has changed
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  Message immersive
   
   
   
