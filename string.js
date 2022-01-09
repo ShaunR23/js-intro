@@ -1,3 +1,6 @@
+(function(){
+'use strict'
+
 // Add your code here
 
 const quoteStart = "Don't judge each day by the harvest you reap ";
@@ -32,9 +35,13 @@ section.appendChild(para2);
 const quote = 'I dO nOT lIke gREen eGgS anD HAM';
 
 // Add your code here
+let length = quote.length
+let start = quote.slice(0,1) //first char
+let end = quote.slice(1, length)// all but first char
 let fixedQuote = quote.toLowerCase();
 fixedQuote = fixedQuote.replace("green eggs and ham", "shrimp and grits")
-// finalQuote = 
+
+finalQuote = fixedQuote + "."
 
 // Don't edit the code below here!
 
@@ -61,4 +68,5 @@ const para1 = document.createElement('p');
 para1.textContent = myString;
 
 section.appendChild(para1);
+})
     

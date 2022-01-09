@@ -1,3 +1,8 @@
+(function(){
+    'use strict';
+
+
+
 let finalResult;
 
 let evenOddResult;
@@ -33,7 +38,7 @@ section.appendChild(para2);
 
 let result = 7 + 13 / 9 + 7;
 let result2 = 100 / 2 * 6;
-result *= result 2
+result *= result2
 finalResult = result.toFixed(2);
 finalNumber = Number(finalResult);
 
@@ -62,9 +67,11 @@ heightComparison = ostrichHeight > duckHeight
 // Statement 3: The two passwords match
 const pwd1 = 'stromboli';
 const pwd2 = 'stROmBoLi'
-pwdMatch = pwd1 === pwd2
-// Add your code here
 
+// Add your code here
+let weightComparison = eleWeight < mouseWeight
+let heightComparison = ostrichHeight > duckHeight;
+let pwdMatch = pwd1 === pwd2;
 // Don't edit the code below here!
 
 section.innerHTML = ' ';
@@ -83,3 +90,4 @@ section.appendChild(para2);
 para3.textContent = pwdTest;
 section.appendChild(para3);
     
+})
